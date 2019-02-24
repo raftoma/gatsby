@@ -3,7 +3,7 @@ import Header from "../components/header";
 import Menu from "../components/menu";
 
 export default () => (
-  <div class="container">
+  <div className="container">
     <Menu />
     <Header headerText="Contact" />
     <h2>Rafael Tomaszewski</h2>
