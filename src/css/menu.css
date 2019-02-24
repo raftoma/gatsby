@@ -1,0 +1,32 @@
+/* Menu */
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: #e3e3e3;
+
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 3px;
+
+}
+
+nav a {
+    color: #000;
+    padding: 20px 30px;
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: purple;
+    color: #fff;
+}

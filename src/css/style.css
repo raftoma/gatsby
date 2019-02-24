@@ -1,0 +1,38 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: purple;
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+}
+
+a {
+    transition: all 0.5s;
+    text-decoration: none;
+    color: #2D8000;
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+}
+
+
+/* Clock */
+.clock {
+    font-size: 10vw;
+}
+
+.copyrights {
+    font-size: 9px;
+    color: #e3e3e3;
+    text-align: center;
+}
+

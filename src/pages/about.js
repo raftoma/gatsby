@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "../components/header";
-
+import Menu from "../components/menu";
 
 export default () => (
-    <div style={{ color: `teal`}}>
-      <Header headerText="About Gatsby" />
-      <Header headerText="It's pretty cool" />
-      <p>Such wow. Very React.</p>
-      <a href="/">Go back to main page</a>
-    </div>
+  <div class="container">
+    <Menu />
+    <Header headerText="This is very first project in Gatsby.js" />
+    <Header headerText="It's pretty cool" />
+    <p>Such wow. Very React.</p>
+  </div>
 )

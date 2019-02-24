@@ -1,17 +1,14 @@
-import React from "react"
-import Clock from "react-live-clock"
+import React from "react";
+import { Link } from "gatsby";
+import Clock from "react-live-clock";
+import Menu from "../components/menu";
+import "../css/style.css";
 
 export default () => (
-  <div style={{ color: "purple" }}>
+    <div class="container">
+    <Menu />
     <h1>Hello Gatsby!</h1>
-    <p>
-      The time is:
-      <Clock format={"h:mm:ss"} ticking={true} />
-    </p>
-    <div>
-
-        <img src="https://picsum.photos/200/300/?random" alt="Random picture" />
-    </div>
-    <a href="/about/">Go to about page</a>
+    <div class="clock"><Clock format={"HH:mm:ss"} ticking={true} interval={1000} /></div>
+    <div class="copyrights">Photo by Miguel Á. Padriñán from Pexels</div>
   </div>
 )
