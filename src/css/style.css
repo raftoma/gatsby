@@ -24,15 +24,13 @@ a {
     text-align: center;
 }
 
-
-/* Clock */
 .clock {
-    font-size: 10vw;
+    font-size: 20vw;
 }
 
 .copyrights {
     font-size: 9px;
-    color: #e3e3e3;
+    color: #7d7d7d;
     text-align: center;
 }
 
